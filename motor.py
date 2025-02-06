@@ -87,7 +87,7 @@ def stopMotor(token: str):
         print("Error:", e)
 
 
-def readFromMotor(token: str, type: str):
+def readData(token: str, type: str):
     payload = {
         "jsonrpc": "2.0",
         "method": "PlcProgram.Read",

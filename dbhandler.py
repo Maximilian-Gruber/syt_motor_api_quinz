@@ -19,8 +19,3 @@ class DBHandler:
     def close_connection(self):
         self.cursor.close()
         self.connection.close()
-
-# Example usage:
-# db = DBHandler('localhost', 'your_username', 'your_password', 'your_database')
-# db.insert_data(1, 'some_value', 'some_type', 'some_user')
-# db.close_connection()
